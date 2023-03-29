@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./week3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="top">
+        <div class="brand-logo">
+            <img src="./images/Fedeora%20logo.png" alt="FEDORA HERALD">
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="my-form">
+                    <p class="bws">BEST TRAINING CENTRE</p>
+                    <h1>Great Way to Show Your Services</h1>
+                    <p class="write"><span>This should be used to tell a story and let your users know a little more about our program.</span></p>
+
+                </div>
+                <div id="card">
+                    <div class="card-header">
+                        <h2>Start Your Free Trial </h2>
+                        <p class="action">Supporting call-to-action goes here</p>
+                        <hr class="line">
+                    </div>
+
+                    <form method="#">
+                        <div class="box">
+                            <tr>
+                                <th>
+                                    <input required type="text" placeholder="Your Name"></th>
+                            </tr><br>
+
+                            <tr>
+                                <th>
+                                    <input required type="email" placeholder="Your E-mail"></th>
+                            </tr><br>
+
+                            <tr>
+                                <th>
+                                    <input required type="text" placeholder="Phone Number"></th>
+                            </tr>
+                        <!-- </table> -->
+                        </div>
+
+                        <button id="btn-btn" class="btn"><span>CALL TO ACTION</span></button>
+                    </form>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+    </header>
+<script>
+    document.getElementById("btn-btn").addEventListener("click", myFunction);
+
+        function myFunction() {
+            alert("Submitted Successfully");
+        }
+</script>
+</body>
+
+</html>
